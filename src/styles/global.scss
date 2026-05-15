@@ -17,3 +17,21 @@ a {
   background-color: $main-bg;
   color: $main-color;
 }
+
+.container {
+  display: flex;
+}
+
+.sidebar,
+.content {
+  padding: 5px 20px;
+}
+
+.sidebar {
+  width: 250px;
+  border-right: 2px solid $soft-bg;
+}
+
+.content {
+  width: 100%;
+}
