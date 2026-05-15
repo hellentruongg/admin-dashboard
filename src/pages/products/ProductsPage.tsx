@@ -1,7 +1,7 @@
 import "./ProductsPage.scss";
 
 const Products = () => {
-  return <div className="products">Products</div>;
+  return <div>Products</div>;
 };
 
 export default Products;

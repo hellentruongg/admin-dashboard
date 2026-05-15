@@ -1,7 +1,7 @@
 import "./UsersPage.scss";
 
 const Users = () => {
-  return <div className="users">Users</div>;
+  return <div>Users</div>;
 };
 
 export default Users;
