@@ -1,7 +1,7 @@
 import "./ProductsPage.scss";
 
-const home = () => {
+const Products = () => {
   return <div className="products">Products</div>;
 };
 
-export default home;
+export default Products;
