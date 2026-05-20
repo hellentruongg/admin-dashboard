@@ -8,6 +8,14 @@
     display: grid;
     gap: 12px;
   }
+
+  &__title {
+    font-size: 12px;
+    font-weight: 200;
+    color: $soft-color;
+    text-transform: uppercase;
+  }
+
   &__list {
     list-style-type: none;
     margin: 0;
