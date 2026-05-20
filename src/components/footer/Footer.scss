@@ -3,4 +3,12 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+
+  &__logo {
+    font-weight: bold;
+  }
+
+  &__copyright {
+    font-size: 14px;
+  }
 }
