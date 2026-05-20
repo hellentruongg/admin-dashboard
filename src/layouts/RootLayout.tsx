@@ -12,9 +12,9 @@ const RootLayout = () => {
       </header>
 
       <div className="container">
-        <nav className="sidebar">
+        <aside className="sidebar">
           <Sidemenu />
-        </nav>
+        </aside>
         <main className="content">
           <Outlet />
         </main>
