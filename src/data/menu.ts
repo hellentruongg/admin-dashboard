@@ -5,7 +5,7 @@ export const menu = [
     listItems: [
       {
         id: 1,
-        title: "Homepage",
+        title: "Home",
         url: "/",
         icon: "home.svg",
       },
