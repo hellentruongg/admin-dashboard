@@ -1,7 +1,23 @@
 .menu {
+  display: grid;
+  gap: 20px;
+
+  &__section {
+    display: grid;
+    gap: 12px;
+  }
   &__list {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
+    display: grid;
+    gap: 8px;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
 }

@@ -5,16 +5,16 @@ const Sidemenu = () => {
   return (
     <nav className="menu">
       <section className="menu__section">
-        <h3>Main</h3>
+        <h3 className="menu__title">Main</h3>
         <ul className="menu__list">
           <li className="menu__item">
-            <Link to="#">
+            <Link to="#" className="menu__link">
               <img src="#" />
               <span>Home</span>
             </Link>
           </li>
-          <li>
-            <Link to="#">
+          <li className="menu__item">
+            <Link to="#" className="menu__link">
               <img src="#" />
               <span>Profile</span>
             </Link>
