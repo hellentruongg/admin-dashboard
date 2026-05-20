@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
+import "./Sidemenu.scss";
 
 const Sidemenu = () => {
   return (
-    <nav>
-      <section>
+    <nav className="menu">
+      <section className="menu__section">
         <h3>Main</h3>
-        <ul>
-          <li>
+        <ul className="menu__list">
+          <li className="menu__item">
             <Link to="#">
               <img src="#" />
               <span>Home</span>
