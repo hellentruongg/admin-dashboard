@@ -20,9 +20,7 @@ const RootLayout = () => {
         </main>
       </div>
 
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </div>
   );
 };
