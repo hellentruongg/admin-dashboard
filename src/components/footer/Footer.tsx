@@ -1,5 +1,10 @@
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <footer>
+      <span>Dashboard</span>
+      <span>&copy; 2026 Admin Dashboard</span>
+    </footer>
+  );
 };
 
 export default Footer;
