@@ -8,11 +8,13 @@
   &__logo {
     display: flex;
     align-items: center;
+    gap: 8px;
   }
 
   &__content {
     display: flex;
     align-items: center;
+    gap: 20px;
   }
 
   &__notification {
@@ -23,6 +25,7 @@
   &__avatar {
     display: flex;
     align-items: center;
+    gap: 8px;
   }
 
   &__avatar-frame {
