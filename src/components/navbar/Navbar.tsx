@@ -13,7 +13,7 @@ const Navbar = () => {
         <img src="/expand.svg" className="navbar__icon navbar__icon--size" />
         <div className="navbar__notification">
           <img src="/notification.svg" className="navbar__icon" />
-          <span>1</span>
+          <span className="navbar__notification-badge">1</span>
         </div>
         <div className="navbar__avatar">
           <div className="navbar__avatar-frame">
