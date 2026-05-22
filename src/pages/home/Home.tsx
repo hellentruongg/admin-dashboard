@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="overview">
       <article className="overview__card overview__1">Card 1</article>
-      <article className="overview__card overview__2">Card 3</article>
+      <article className="overview__card overview__2">Card 2</article>
       <article className="overview__card overview__3">Card 3</article>
       <article className="overview__card overview__4">Card 4</article>
       <article className="overview__card overview__5">Card 5</article>

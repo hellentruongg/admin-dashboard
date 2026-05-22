@@ -1,9 +1,29 @@
 @import "../../styles/variables.scss";
 
 .overview {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(180px, auto);
+
   &__card {
     padding: 20px;
     border-radius: 10px;
     border: 1px solid $soft-bg;
+  }
+
+  &__1 {
+    grid-column: span 1;
+    grid-row: span 3;
+  }
+
+  &__4 {
+    grid-column: span 1;
+    grid-row: span 3;
+  }
+
+  &__7 {
+    grid-column: span 2;
+    grid-row: span 2;
   }
 }
