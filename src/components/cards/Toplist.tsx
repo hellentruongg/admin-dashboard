@@ -1,7 +1,7 @@
 import React from "react";
 
 const Toplist = () => {
-  return <div>Toplist</div>;
+  return <div></div>;
 };
 
 export default Toplist;
