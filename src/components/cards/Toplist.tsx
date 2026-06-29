@@ -2,22 +2,22 @@ import { toplist } from "../../data/toplist";
 
 const Toplist = () => {
   return (
-    <section>
-      <h2>Top Deals</h2>
-      <ol>
+    <section className="toplist">
+      <h2 className="toplist__title">Top Deals</h2>
+      <ol className="toplist__list">
         {toplist.map((user) => (
-          <li key={user.id}>
-            <article>
-              <div>
-                <img src={user.img} />
+          <li key={user.id} className="toplist__item">
+            <article className="toplist__user">
+              <div className="toplist__info">
+                <img src={user.img} className="toplist__image" />
 
-                <div>
-                  <h3>{user.username}</h3>
-                  <p>{user.email}</p>
+                <div className="toplist__details">
+                  <h3 className="toplist__username">{user.username}</h3>
+                  <p className="toplist__email">{user.email}</p>
                 </div>
               </div>
 
-              <p>{user.amount}</p>
+              <p className="toplist__amount">{user.amount}</p>
             </article>
           </li>
         ))}
